@@ -1,0 +1,38 @@
+GENERATING YOUR STREAMLIT APPLICATION FROM A .PY FILE
+
+1. open terminal FROM your ROOT ENVIRONMENT in conda
+     a. will NOT work if you open CMD regularly
+2. use 'cd streamlit' to go to the streamlit folder
+3. use 'stremlit run file_name.py' to run your code 
+4. will automatically generate tab that shows you your application
+5. when opening your code you CANNOT use a .ipynb file: .py FILE ONLY
+
+CREATING A .PY FILE USING CMD
+
+1. open regular CMD (or root, doesn't matter)
+2. use 'cd Documents' to create a line to this folder
+     a. might be able to just open root environment so it save the .py file directly to 
+     streamlit folder
+3. 'echo your_text_here > filename.extension'
+4. 'echo This is sample code > MyFile.py'
+5. verify that it ran using 'type filename.extension'
+
+CREATING A .PY FILE IN JUPYTER
+
+1. literally just make the .ipynb file
+2. hit download from file drop down menu
+3. click drop down menu of file types and select .py
+4. drag and drop into streamlit folder to save
+
+OPENING YOUR FILE IN STREAMLIT USING CMD
+
+1. cd streamlit
+2. streamlit run MyFile.py
+3. link will be generated and pop-up will appear to take you directly to app webpage
+
+CREATE APP IN PYTHON THEN USE BROWSER TO VIEW APP
+
+1. write code using streamlit program
+     a. st.write(), etc
+2. you will get warning prompt to view in browser
+3. just copy and paste the text it gives you into your ROOT ENVIRONMENT CMD

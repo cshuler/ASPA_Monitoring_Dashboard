@@ -1,0 +1,23 @@
+matching corners of 3x3 over 4x4
+excluding other cells that you're not hovering over - only computed for poitions where entire kernel fits
+
+only picked relu that gives best score
+take max value of each 2x2 of input
+will pick the maximum of the convolutional layers
+max pooling max value is 516
+
+max pooling reduces network complexity and prevents overfitting while keeping most important factors
+
+then use second conv layer to extract higher level features from output of first conv layer
+reduced spatial dimensions before, so we are adding them back in so we focus on a section
+
+second takes output of first
+then calc dot prod between kernel 2 and output for maxpooling from kernel 1
+apply sigmoid to conv layer 2
+gives us probability matrix
+
+we pick max prob in that matrix (.987 > 0.5) so it is predicting "L"
+
+
+
+

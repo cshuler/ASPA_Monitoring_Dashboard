@@ -1,0 +1,6 @@
+SRD_wpm2
+HMD_pct
+TMP_F
+RNF_in
+WND_deg
+WNS_mph
