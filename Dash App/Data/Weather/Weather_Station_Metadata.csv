@@ -1,5 +1,6 @@
-Site_name,LAT,LON,Time Resolution,Filename
-Vaipito,NaN,NaN,15 M,Vaipito-CR300wx.dat
-Poloa,NaN,NaN,15 M,Poloa-CR300wx.dat
-Afono,NaN,NaN,15 M,Afono-wx-060519.dat
-Aasu,NaN,NaN,15 M,Aasu-CR300wx.dat
+Site_name,LAT,LON,Source,Time Resolution,Filename_Rainfall,Filename_Weather
+Afono,-14.26738,-170.65058,ASPA-UH,15 M,Afono_Clean.csv,Afono-wx-060519.dat
+Aasu,-14.3098,-170.7715,ASPA-UH,15 M,Aasu_Clean.csv,Aasu-CR300wx.dat
+Poloa,-14.3196,-170.8308,ASPA-UH,15 M,NaN,Poloa-CR300wx.dat
+Vaipito,-14.2829,-170.7105,ASPA-UH,15 M,Vaipito_Clean.csv,Vaipito-CR300wx.dat
+Airport,-14.3333,-170.7167,https://xmacis.rcc-acis.org/,Daily,Airport_Daily.csv,NaN

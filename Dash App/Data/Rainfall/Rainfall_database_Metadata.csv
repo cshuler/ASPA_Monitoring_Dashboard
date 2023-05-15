@@ -1,6 +1,0 @@
-Site_name,LAT,LON,Source,Time Resolution,Filename
-Afono,-14.26738,-170.65058,ASPA-UH,15 M,Afono_Clean.csv
-Aasu,-14.3098,-170.7715,ASPA-UH,15 M,Aasu_Clean.csv
-Poloa,-14.3196,-170.8308,ASPA-UH,15 M,Poloa_Clean.csv
-Vaipito,-14.2829,-170.7105,ASPA-UH,15 M,Vaipito_Clean.csv
-Airport,-14.3333,-170.7167,https://xmacis.rcc-acis.org/,Daily,Airport_Daily.csv

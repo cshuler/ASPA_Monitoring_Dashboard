@@ -1,0 +1,16 @@
+BattV_Avg
+PTemp_C_Max
+AirTF_Avg
+RH
+Rain_in_Tot
+WS_mph_S_WVT
+WindDir_D1_WVT
+WindDir_SD1_WVT
+SlrW_Avg
+SlrMJ_Tot
+SRD_wpm2
+HMD_pct
+TMP_F
+RNF_in
+WND_deg
+WNS_mph

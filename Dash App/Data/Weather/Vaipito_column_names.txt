@@ -9,3 +9,9 @@ WS_mph_S_WVT
 WindDir_D1_WVT
 WindDir_SD1_WVT
 Batt_Volt_Avg
+SRD_wpm2
+HMD_pct
+TMP_F
+RNF_in
+WND_deg
+WNS_mph
