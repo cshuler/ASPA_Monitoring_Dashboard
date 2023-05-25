@@ -92,14 +92,19 @@ app.layout = dbc.Container(
             children=[
                 dbc.Container(
                     children=[
-                        dbc.Row([
-                            html.H4(children="Public Watershed Data for American Samoa", style={'textAlign': 'center', 'color': 'White'}),
-                            html.P(
-                                id="title-description",
-                                children="Information about water availability and movement is fundamental to ensuring economic well-being, protecting lives and property, and promoting sustainable use of water resources. On remote oceanic islands, resource limitations can be a defining factor in an island’s habitability. Therefore, it is essential to maintain an up-to-date understanding of rainfall, weather, surface water, and groundwater in these settings, especially in the face of a changing climate and uncertain future. Starting in the 1950’s weather monitoring and stream gauging services for the territory of American Samoa were performed by the United States Geological Survey (USGS). However, in 2008 this program was discontinued. Because of the critical nature of these datasets, the University of Hawaii (UH) Water Resources Research Center (WRRC) and the territory’s sole water utility, American Samoa Power Authority (ASPA), have entered into a cooperative agreement for the purpose of developing a new weather station, stream gauging, and aquifer monitoring network.",
-                                style={"border":"2px gray solid", 'border-radius': '10px', 'backgroundColor':'White'}
-                                ),
-                            ],
+                        dbc.Row(
+                            children=[
+                                html.H4(children="Public Watershed Data for American Samoa", style={'textAlign': 'center', 'color': 'White'}),                      
+                                html.P(
+                                    id="title-description",
+                                    children="Information about water availability and movement is fundamental to ensuring economic well-being, protecting lives and property, and promoting sustainable use of water resources. On remote oceanic islands, resource limitations can be a defining factor in an island’s habitability. Therefore, it is essential to maintain an up-to-date understanding of rainfall, weather, surface water, and groundwater in these settings, especially in the face of a changing climate and uncertain future. Starting in the 1950’s weather monitoring and stream gauging services for the territory of American Samoa were performed by the United States Geological Survey (USGS). However, in 2008 this program was discontinued. Because of the critical nature of these datasets, the University of Hawaii (UH) Water Resources Research Center (WRRC) and the territory’s sole water utility, American Samoa Power Authority (ASPA), have entered into a cooperative agreement for the purpose of developing a new weather station, stream gauging, and aquifer monitoring network.",
+                                    style={"border":"2px gray solid", 'border-radius': '10px', 'backgroundColor':'White'}
+                                    ),
+                                html.A(
+                                    html.Img(id="monitoring-instruments", src=app.get_asset_url("monitoring_instruments4.png"), style={'width': '45%'}),
+                                    style={'textAlign': 'center'}
+                                    ),
+                                ],
                             ),
                         ],
                     fluid=True
