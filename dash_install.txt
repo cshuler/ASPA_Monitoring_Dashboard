@@ -1,0 +1,9 @@
+4-Step Process
+
+1. Open an Anaconda Powershell and run Drive_Letter:\Users\Path\To\User>conda install -c conda-forge dash
+
+2. Open the AmSam_*.py in Spyder
+
+3. Run app
+
+4. Browse to appropriate URL, typically (http://127.0.0.1:8050)
