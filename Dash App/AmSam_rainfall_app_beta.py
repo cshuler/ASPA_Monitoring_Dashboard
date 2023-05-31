@@ -242,7 +242,7 @@ app.layout = dbc.Container(
                     dbc.Row(
                         children=[
                             html.A(
-                                html.Img(id="monitoring-instruments", src=app.get_asset_url("monitoring_instruments4.png"), style={'width': '33%'}),
+                                html.Img(id="monitoring-instruments", src=app.get_asset_url("monitoring_instruments4.png"), style={'width': '50%'}),
                                 style={'textAlign': 'center'}
                                 ),
                             ],
